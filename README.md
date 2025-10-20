@@ -57,7 +57,7 @@ Sigue estos pasos para levantar y ejecutar el proyecto en tu entorno local.
     ```bash
     mvn spring-boot:run
     ```
-    La aplicación estará disponible en `http://localhost:8080`.
+    La aplicación estará disponible en `http://localhost:8081`.
 
 ---
 ## <caption> Documentación de la API (Swagger UI)
