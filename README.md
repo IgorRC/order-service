@@ -42,7 +42,7 @@ Sigue estos pasos para levantar y ejecutar el proyecto en tu entorno local.
 
 1.  **Clona el repositorio:**
     ```bash
-    git clone <https://github.com/IgorRC/order-service.git>
+    git clone https://github.com/IgorRC/order-service.git
     cd order-service
     ```
 
