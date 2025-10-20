@@ -64,7 +64,7 @@ Sigue estos pasos para levantar y ejecutar el proyecto en tu entorno local.
 
 Una vez que la aplicación esté corriendo, puedes acceder a la documentación interactiva de la API en tu navegador:
 
-➡️ **[http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)**
+➡️ **[http://localhost:8081s/swagger-ui.html](http://localhost:8080/swagger-ui.html)**
 
 Desde allí podrás ver todos los endpoints, sus modelos de datos y probarlos directamente.
 
