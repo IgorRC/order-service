@@ -45,7 +45,7 @@ services:
     networks:
       - logistics-net
   sonardb:
-    image: postgres:15
+    image: postgres:15.0
     container_name: sonardb
     environment:
       POSTGRES_USER: sonar
@@ -81,3 +81,8 @@ networks:
 
 volumes:
   mongo-data:
+  sonardb_data:
+  sonarqube_conf:
+  sonarqube_data:
+  sonarqube_extensions:
+  sonarqube_logs:
