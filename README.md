@@ -38,7 +38,7 @@ Sigue estos pasos para levantar y ejecutar el proyecto en tu entorno local.
 * Apache Maven 3.8+
 * Docker y Docker Compose
 
-### Instalación y Ejecución
+### Instalación
 
 1.  **Clona el repositorio:**
     ```bash
@@ -47,13 +47,15 @@ Sigue estos pasos para levantar y ejecutar el proyecto en tu entorno local.
     ```
 
 2.  **Levanta la infraestructura con Docker:**
-    Este comando iniciará los contenedores de MongoDB, Redis y Kafka en segundo plano.
+    Este comando iniciará los contenedores de MongoDB, Redis , Kafka, Zookeper , Sonar Qube,DB_Sonar  y la App en segundo plano.
     ```bash
     docker-compose up -d
     ```
+    La aplicación dockerizada estará disponible en `http://localhost:8081`.
+### Desarrollo
 
-3.  **Ejecuta la aplicación Spring Boot:**
-    Puedes hacerlo desde tu IDE (ejecutando la clase `OrderServiceApplication`) o usando Maven en la terminal:
+1.  **Ejecuta la aplicación Spring Boot:**
+    Puedes hacerlo desde tu IDE (ejecutando la clase `OrderServiceApplication`) o usando Maven en la terminal, reccuerda desactivar la App dentro de los contenedores :
     ```bash
     mvn spring-boot:run
     ```
