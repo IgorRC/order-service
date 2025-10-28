@@ -19,4 +19,4 @@ springdoc.swagger-ui.tags-sorter=alpha
 
 springdoc.info.title=Order Service API
 springdoc.info.version=1.0.0
-springdoc.info.description=API para la gestiÃ³n de ordenes de entrega del servicio de logistica.
+springdoc.info.description=API para la gestión de ordenes de entrega del servicio de logistica.
