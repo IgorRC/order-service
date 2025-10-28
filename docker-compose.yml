@@ -45,8 +45,8 @@ services:
     networks:
       - logistics-net
   sonardb:
-    image: postgres:15.0
-    container_name: sonardb
+    image: postgres:15
+    container_name: order-service-sonardb
     environment:
       POSTGRES_USER: sonar
       POSTGRES_PASSWORD: sonar
@@ -58,7 +58,7 @@ services:
 
   sonarqube:
     image: sonarqube:lts-community
-    container_name: sonarqube
+    container_name: order-service-sonarqube
     depends_on:
       - sonardb
     ports:
