@@ -75,6 +75,21 @@ services:
     networks:
       - logistics-net
 
+  order-service:
+    build: .
+    container_name: order-service-app
+    ports:
+      - "8081:8081"
+    networks:
+      - logistics-net
+    environment:
+      SPRING_PROFILES_ACTIVE: docker
+    depends_on:
+      - mongo
+      - redis
+      - kafka
+      - sonarqube
+
 networks:
   logistics-net:
     driver: bridge
